@@ -23,8 +23,8 @@
       <a class="p-2 text-muted" href="<%=request.getContextPath() %>/nav/playwright.jsp">연극?</a>
       <a class="p-2 text-muted" href="<%=request.getContextPath() %>/nav/developer.jsp">개발?</a>
       <a class="p-2 text-muted" href="<%=request.getContextPath() %>/nav/study.jsp">공부?</a>
-      <a class="p-2 text-muted" href="<%=request.getContextPath() %>/nav/hobby.jsp">스타일?</a>
-      <a class="p-2 text-muted" href="<%=request.getContextPath() %>/nav/game.jsp">게임?</a>
+      <a class="p-2 text-muted" href="<%=request.getContextPath() %>/nav/hobby.jsp">덕질?</a>
+      <a class="p-2 text-muted" href="<%=request.getContextPath() %>/nav/review.jsp">리뷰?</a>
       <a class="p-2 text-muted" href="<%=request.getContextPath() %>/nav/monologue.jsp">Soliloquy</a>
       <a class="p-2 text-muted" href="<%=request.getContextPath() %>/nav/storage.jsp">Storage</a>
       <a class="p-2 text-muted" href="<%=request.getContextPath() %>/nav/board.jsp">Open Board</a>
