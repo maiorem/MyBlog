@@ -4,10 +4,10 @@
   <header class="blog-header py-3">
     <div class="row flex-nowrap justify-content-between align-items-center">
       <div class="col-4 pt-1">
-        <a class="text-muted" href="#">구독하기</a>
+        <a class="text-muted" href="#">CONTACT</a>
       </div>
       <div class="col-4 text-center">
-        <a class="blog-header-logo text-dark" href="index.html">무대 언어와 프로그래밍 언어<br>그 사이 어드매</a>
+        <a class="blog-header-logo text-dark" href="<%=request.getContextPath() %>/index.html">무대 언어와 프로그래밍 언어</a>
       </div>
       <div class="col-4 d-flex justify-content-end align-items-center">
         <a class="text-muted" href="#" aria-label="Search">
@@ -20,15 +20,14 @@
 
   <div class="nav-scroller py-1 mb-2">
     <nav class="nav d-flex justify-content-between">
-      <a class="p-2 text-muted" href="playwright.html">극작?</a>
-      <a class="p-2 text-muted" href="developer.html">개발?</a>
-      <a class="p-2 text-muted" href="gamer.html">게임?</a>
-      <a class="p-2 text-muted" href="collertor.html">수집?</a>
-      <a class="p-2 text-muted" href="styler.html">스타일?</a>
-      <a class="p-2 text-muted" href="blarblar.html">수다?</a>
-      <a class="p-2 text-muted" href="monologue.html">Soliloquy</a>
-      <a class="p-2 text-muted" href="storage.html">Storage</a>
-      <a class="p-2 text-muted" href="board.html">Open Board</a>
+      <a class="p-2 text-muted" href="<%=request.getContextPath() %>/nav/playwright.jsp">연극?</a>
+      <a class="p-2 text-muted" href="<%=request.getContextPath() %>/nav/developer.jsp">개발?</a>
+      <a class="p-2 text-muted" href="<%=request.getContextPath() %>/nav/study.jsp">공부?</a>
+      <a class="p-2 text-muted" href="<%=request.getContextPath() %>/nav/hobby.jsp">스타일?</a>
+      <a class="p-2 text-muted" href="<%=request.getContextPath() %>/nav/game.jsp">게임?</a>
+      <a class="p-2 text-muted" href="<%=request.getContextPath() %>/nav/monologue.jsp">Soliloquy</a>
+      <a class="p-2 text-muted" href="<%=request.getContextPath() %>/nav/storage.jsp">Storage</a>
+      <a class="p-2 text-muted" href="<%=request.getContextPath() %>/nav/board.jsp">Open Board</a>
       
     </nav>
   </div>

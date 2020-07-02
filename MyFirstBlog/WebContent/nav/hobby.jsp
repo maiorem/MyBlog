@@ -30,7 +30,7 @@
 </head>
 <body>
 	<%@ include file="/include/header.jsp"%>
-	<div>index</div>
+	<div>취미생활</div>
 	<%@ include file="/include/footer.jsp"%>
 </body>
 </html>
