@@ -2,6 +2,7 @@
     pageEncoding="UTF-8"%>
 <%
 	session.invalidate();
+	response.sendRedirect("/index.html");
 %>
 <!DOCTYPE html>
 <html>
