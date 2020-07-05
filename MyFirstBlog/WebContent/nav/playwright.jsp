@@ -133,8 +133,7 @@
 									class="btn btn-primary">공연정보 없음</a>
 							</div>
 						</div>
-						<div class="card"
-							style="width: 18rem; float: left; margin-right: 100px; margin-bottom: 100px;">
+						<div class="card" style="width: 18rem;">
 							<img src="../images/godok.jpg" class="card-img-top" alt="..."
 								style="width: 288px; height: 300px;">
 							<div class="card-body">
@@ -198,8 +197,7 @@
 									class="btn btn-primary">공연정보</a>
 							</div>
 						</div>
-						<div class="card"
-							style="width: 18rem; float: left; margin-right: 100px; margin-bottom: 100px;">
+						<div class="card" style="width: 18rem;">
 							<img src="../images/angryver01.jpg" class="card-img-top" alt="..."
 								style="width: 288px; height: 300px;">
 							<div class="card-body">
