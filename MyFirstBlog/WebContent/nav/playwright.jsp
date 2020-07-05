@@ -43,15 +43,15 @@
 	<div class="card mb-3" style="max-width: 540px;">
 		<div class="row no-gutters">
 			<div class="col-md-4">
-				<img src="../images/me.jpg" class="card-img" alt="...">
+				<img src="../images/jingrim.jpg" class="card-img" alt="...">
 			</div>
 			<div class="col-md-8">
 				<div class="card-body">
 					<h5 class="card-title">극작가 홍세영</h5>
 					<p class="card-text">
-						서울예술대학교 연극과 졸업.
-						주로 극작과 드라마투르기 활동 중.
-						무대와 일상을 잇는 언어에 대해 고민합니다.
+						서울예술대학교 연극과 졸업. <br>
+						주로 극작과 드라마투르기 활동 중. <br>
+						무대와 일상을 잇는 언어에 대해 고민합니다. 
 					</p>
 					<p class="card-text">
 						<small class="text-muted">Last updated 1 days ago</small>
