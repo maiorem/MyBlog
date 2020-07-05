@@ -63,15 +63,13 @@
 								<p class="card-text">
 									여행자극장 <br> 2020.11.13. ~ 11.22.<br> 대본
 								</p>
-								<a
-									href="#"
-									class="btn btn-primary">공연예정입니다.</a>
+								<a href="#" class="btn btn-primary">공연예정입니다.</a>
 							</div>
 						</div>
 						<div class="card"
 							style="width: 18rem; float: left; margin-right: 100px; margin-bottom: 100px;">
-							<img src="../images/chakekver02.jpg" class="card-img-top" alt="..."
-								style="width: 288px; height: 300px;">
+							<img src="../images/chakekver02.jpg" class="card-img-top"
+								alt="..." style="width: 288px; height: 300px;">
 							<div class="card-body">
 								<h5 class="card-title">
 									연극 <br>[챠큭, 챠큭챠큭 첫번째 이야기 <br> ~ 잃어가는 것들에 대하여]
@@ -84,7 +82,7 @@
 									class="btn btn-primary">공연정보</a>
 							</div>
 						</div>
-					
+
 					</div>
 				</div>
 			</div>
@@ -119,8 +117,8 @@
 						</div>
 						<div class="card"
 							style="width: 18rem; float: left; margin-right: 100px; margin-bottom: 100px;">
-							<img src="../images/angrydaejeon.jpg" class="card-img-top" alt="..."
-								style="width: 288px; height: 300px;">
+							<img src="../images/angrydaejeon.jpg" class="card-img-top"
+								alt="..." style="width: 288px; height: 300px;">
 							<div class="card-body">
 								<h5 class="card-title">
 									연극 <br>[분노중독]
@@ -128,9 +126,7 @@
 								<p class="card-text">
 									소극장 고도 <br> 2019.09.16. ~ 09.23.<br> 대본
 								</p>
-								<a
-									href="#"
-									class="btn btn-primary">공연정보 없음</a>
+								<a href="#" class="btn btn-primary">공연정보 없음</a>
 							</div>
 						</div>
 						<div class="card" style="width: 18rem;">
@@ -148,7 +144,7 @@
 									class="btn btn-primary">공연정보</a>
 							</div>
 						</div>
-						
+
 					</div>
 				</div>
 			</div>
@@ -161,14 +157,14 @@
 						aria-expanded="false" aria-controls="collapseThree">2018.</button>
 				</h2>
 			</div>
-			<div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-				data-parent="#accordionExample">
+			<div id="collapseThree" class="collapse"
+				aria-labelledby="headingThree" data-parent="#accordionExample">
 				<div class="card-body">
 					<div class="cards" style="overflow: hidden;">
 						<div class="card"
 							style="width: 18rem; float: left; margin-right: 100px; margin-bottom: 100px;">
-							<img src="../images/whitedillema.jpg" class="card-img-top" alt="..."
-								style="width: 288px; height: 300px;">
+							<img src="../images/whitedillema.jpg" class="card-img-top"
+								alt="..." style="width: 288px; height: 300px;">
 							<div class="card-body">
 								<h5 class="card-title">
 									연극 <br> [화이트딜레마]
@@ -183,8 +179,8 @@
 						</div>
 						<div class="card"
 							style="width: 18rem; float: left; margin-right: 100px; margin-bottom: 100px;">
-							<img src="../images/chakekver01.jpg" class="card-img-top" alt="..."
-								style="width: 288px; height: 300px;">
+							<img src="../images/chakekver01.jpg" class="card-img-top"
+								alt="..." style="width: 288px; height: 300px;">
 							<div class="card-body">
 								<h5 class="card-title">
 									연극 <br>[챠큭, 챠큭챠큭]
@@ -198,8 +194,8 @@
 							</div>
 						</div>
 						<div class="card" style="width: 18rem;">
-							<img src="../images/angryver01.jpg" class="card-img-top" alt="..."
-								style="width: 288px; height: 300px;">
+							<img src="../images/angryver01.jpg" class="card-img-top"
+								alt="..." style="width: 288px; height: 300px;">
 							<div class="card-body">
 								<h5 class="card-title">
 									연극<br> [분노중독]
@@ -213,91 +209,164 @@
 							</div>
 						</div>
 
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="card">
-			<div class="card-header" id="headingFour">
-				<h2 class="mb-0">
-					<button class="btn btn-link btn-block text-left collapsed"
-						type="button" data-toggle="collapse" data-target="#collapseFour"
-						aria-expanded="false" aria-controls="collapseFour">
-						2017.</button>
-				</h2>
+			<div class="card">
+				<div class="card-header" id="headingFour">
+					<h2 class="mb-0">
+						<button class="btn btn-link btn-block text-left collapsed"
+							type="button" data-toggle="collapse" data-target="#collapseFour"
+							aria-expanded="false" aria-controls="collapseFour">
+							2017.</button>
+					</h2>
+				</div>
+				<div id="collapseFour" class="collapse"
+					aria-labelledby="headingFour" data-parent="#accordionExample">
+					<div class="card-body">
+						<div class="cards" style="overflow: hidden;">
+							<div class="card"
+								style="width: 18rem; float: left; margin-right: 100px; margin-bottom: 100px;">
+								<img src="../images/duastory.jpg" class="card-img-top" alt="..."
+									style="width: 288px; height: 300px;">
+								<div class="card-body">
+									<h5 class="card-title">
+										연극 <br> [두아이야기]
+									</h5>
+									<p class="card-text">
+										동숭아트센터 소극장 <br> 2017.01.31. ~ 02.02.<br> 드라마터그
+									</p>
+									<a
+										href="http://www.playdb.co.kr/playdb/playdbDetail.asp?sReqPlayno=103666"
+										class="btn btn-primary">공연정보</a>
+								</div>
+							</div>
+							<div class="card"
+								style="width: 18rem; float: left; margin-right: 100px; margin-bottom: 100px;">
+								<img src="../images/seoul.jpg" class="card-img-top" alt="..."
+									style="width: 288px; height: 300px;">
+								<div class="card-body">
+									<h5 class="card-title">
+										연극 <br>[서울에 바퀴벌레가 몇마리인지 아세요?]
+									</h5>
+									<p class="card-text">
+										지즐소극장 <br> 2017.02.21. ~ 03.05.<br> 공동집필
+									</p>
+									<a
+										href="http://www.playdb.co.kr/playdb/playdbDetail.asp?sReqPlayno=122263"
+										class="btn btn-primary">공연정보</a>
+								</div>
+							</div>
+							<div class="card" style="width: 18rem; margin-bottom: 100px;">
+								<img src="../images/bombom.jpg" class="card-img-top" alt="..."
+									style="width: 288px; height: 300px;">
+								<div class="card-body">
+									<h5 class="card-title">
+										연극<br> [오딧세우스]
+									</h5>
+									<p class="card-text">
+										여행자극장 <br> 2017.03.24. ~ 04.02.<br> 대본
+									</p>
+									<a
+										href="http://www.playdb.co.kr/playdb/playdbDetail.asp?sReqPlayno=105671"
+										class="btn btn-primary">공연정보</a>
+								</div>
+							</div>
+							<div class="card"
+								style="width: 18rem; float: left; margin-right: 100px; margin-bottom: 100px;">
+								<img src="../images/pedra.jpg" class="card-img-top" alt="..."
+									style="width: 288px; height: 300px;">
+								<div class="card-body">
+									<h5 class="card-title">
+										연극<br> [페드라의 사랑]
+									</h5>
+									<p class="card-text">
+										K'Arts 연극원 상자무대2 <br> 2017.08.09. ~ 08.10.<br> 드라마터그
+									</p>
+									<a href="#" class="btn btn-primary">공연정보 없음</a>
+								</div>
+							</div>
+							<div class="card" style="width: 18rem;">
+								<img src="../images/incheon.jpg" class="card-img-top" alt="..."
+									style="width: 288px; height: 300px;">
+								<div class="card-body">
+									<h5 class="card-title">
+										연극 <br>[하프라인]
+									</h5>
+									<p class="card-text">
+										인천문화예술회관 소공연장<br> 2017.09.08. ~ 2017.09.10.<br> 각색
+									</p>
+									<a
+										href="http://www.playdb.co.kr/playdb/playdbDetail.asp?sReqPlayno=113251"
+										class="btn btn-primary">공연정보</a>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
 			</div>
-			<div id="collapseFour" class="collapse"
-				aria-labelledby="headingFour" data-parent="#accordionExample">
-				<div class="card-body">
-					<div class="cards" style="overflow: hidden;">
-						<div class="card"
-							style="width: 18rem; float: left; margin-right: 100px; margin-bottom: 100px;">
-							<img src="../images/duastory.jpg" class="card-img-top" alt="..."
-								style="width: 288px; height: 300px;">
-							<div class="card-body">
-								<h5 class="card-title">
-									연극 <br> [두아이야기]
-								</h5>
-								<p class="card-text">
-									동숭아트센터 소극장 <br> 2017.01.31. ~ 02.02.<br> 드라마터그
-								</p>
-								<a
-									href="http://www.playdb.co.kr/playdb/playdbDetail.asp?sReqPlayno=103666"
-									class="btn btn-primary">공연정보</a>
+			<div class="card">
+				<div class="card-header" id="headingFive">
+					<h2 class="mb-0">
+						<button class="btn btn-link btn-block text-left collapsed"
+							type="button" data-toggle="collapse" data-target="#collapseFive"
+							aria-expanded="false" aria-controls="collapseFive">
+							2016.</button>
+					</h2>
+				</div>
+				<div id="collapseFive" class="collapse"
+					aria-labelledby="headingFive" data-parent="#accordionExample">
+					<div class="card-body">
+						<div class="cards" style="overflow: hidden;">
+							<div class="card"
+								style="width: 18rem; float: left; margin-right: 100px; margin-bottom: 100px;">
+								<img src="../images/dawin.jpg" class="card-img-top" alt="..."
+									style="width: 288px; height: 300px;">
+								<div class="card-body">
+									<h5 class="card-title">
+										연극 <br> [다윈의 거북이]
+									</h5>
+									<p class="card-text">
+										K'Arts 연극원 실험무대 <br> 2016.01.20. ~ 01.21.<br> 드라마터그
+									</p>
+									<a href="#" class="btn btn-primary">공연정보 없음</a>
+								</div>
 							</div>
-						</div>
-						<div class="card"
-							style="width: 18rem; float: left; margin-right: 100px; margin-bottom: 100px;">
-							<img src="../images/seoul.jpg" class="card-img-top" alt="..."
-								style="width: 288px; height: 300px;">
-							<div class="card-body">
-								<h5 class="card-title">
-									연극 <br>[서울에 바퀴벌레가 몇마리인지 아세요?]
-								</h5>
-								<p class="card-text">
-									지즐소극장 <br> 2017.02.21. ~ 03.05.<br> 공동집필
-								</p>
-								<a
-									href="http://www.playdb.co.kr/playdb/playdbDetail.asp?sReqPlayno=122263"
-									class="btn btn-primary">공연정보</a>
+							<div class="card"
+								style="width: 18rem; float: left; margin-right: 100px; margin-bottom: 100px;">
+								<img src="../images/odysver01.jpg" class="card-img-top"
+									alt="..." style="width: 288px; height: 300px;">
+								<div class="card-body">
+									<h5 class="card-title">
+										연극 <br>[오딧세우스]
+									</h5>
+									<p class="card-text">
+										K'Arts 예술극장 대연습실 <br> 2016.07.20. ~ 07.22. <br> 대본
+									</p>
+									<a href="#" class="btn btn-primary">공연정보 없음</a>
+								</div>
 							</div>
-						</div>
-						<div class="card"
-							style="width: 18rem; float: left; margin-right: 100px; margin-bottom: 100px;">
-							<img src="../images/bombom.jpg" class="card-img-top" alt="..."
-								style="width: 288px; height: 300px;">
-							<div class="card-body">
-								<h5 class="card-title">
-									연극<br> [오딧세우스]
-								</h5>
-								<p class="card-text">
-									여행자극장 <br> 2017.03.24. ~ 04.02.<br> 대본
-								</p>
-								<a
-									href="http://www.playdb.co.kr/playdb/playdbDetail.asp?sReqPlayno=105671"
-									class="btn btn-primary">공연정보</a>
+							<div class="card" style="width: 18rem; margin-bottom: 100px;">
+								<img src="../images/odysver02.jpg" class="card-img-top"
+									alt="..." style="width: 288px; height: 300px;">
+								<div class="card-body">
+									<h5 class="card-title">
+										연극<br> [오딧세우스]
+									</h5>
+									<p class="card-text">
+										K'Arts 예술극장 중극장 <br> 2016.09.02. ~ 09.03.<br> 대본
+									</p>
+									<a href="#" class="btn btn-primary">공연정보 없음</a>
+								</div>
 							</div>
-						</div>
-						<div class="card" style="width: 18rem;">
-							<img src="../images/incheon.jpg" class="card-img-top" alt="..."
-								style="width: 288px; height: 300px;">
-							<div class="card-body">
-								<h5 class="card-title">
-									연극 <br>[하프라인]
-								</h5>
-								<p class="card-text">
-									인천문화예술회관 소공연장<br> 2017.09.08. ~ 2017.09.10.<br> 각색
-								</p>
-								<a
-									href="http://www.playdb.co.kr/playdb/playdbDetail.asp?sReqPlayno=113251"
-									class="btn btn-primary">공연정보</a>
-							</div>
+
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<%@ include file="/include/footer.jsp"%>
+		<%@ include file="/include/footer.jsp"%>
 </body>
 </html>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
