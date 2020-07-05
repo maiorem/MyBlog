@@ -43,7 +43,7 @@
 	<div class="card mb-3" style="max-width: 540px;">
 		<div class="row no-gutters">
 			<div class="col-md-4">
-				<img src="../images/jingrim.jpg" class="card-img" alt="...">
+				<img src="../images/jingrim.jpg" class="card-img" alt="..." style="height:236px;">
 			</div>
 			<div class="col-md-8">
 				<div class="card-body">
@@ -54,7 +54,7 @@
 						무대와 일상을 잇는 언어에 대해 고민합니다. 
 					</p>
 					<p class="card-text">
-						<small class="text-muted">Last updated 1 days ago</small>
+						<small class="text-muted">저는 스스로를 고양이화 하고 있지 않습니다. 해당 그림은 지인이 그려준 진이입니다. 고양이는 배신하지 않습니다. 저를 믿지 마시고 고양이를 믿으세요. 냥멘.</small>
 					</p>
 				</div>
 			</div>
