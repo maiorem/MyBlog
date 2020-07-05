@@ -77,7 +77,7 @@
 					<div class="cards" style="overflow: hidden;">
 						<div class="card"
 							style="width: 18rem; float: left; margin-right: 100px; margin-bottom: 100px;">
-							<img src="..." class="card-img-top" alt="포스터 미정"
+							<img src="../images/noimage.png" class="card-img-top" alt="포스터 미정"
 								style="width: 288px; height: 300px;">
 							<div class="card-body">
 								<h5 class="card-title">
