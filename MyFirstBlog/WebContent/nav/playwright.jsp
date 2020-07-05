@@ -38,6 +38,29 @@
 </head>
 <body>
 	<%@ include file="/include/header.jsp"%>
+	<br>
+	<br>
+	<div class="card mb-3" style="max-width: 540px;">
+		<div class="row no-gutters">
+			<div class="col-md-4">
+				<img src="../images/me.jpg" class="card-img" alt="...">
+			</div>
+			<div class="col-md-8">
+				<div class="card-body">
+					<h5 class="card-title">극작가 홍세영</h5>
+					<p class="card-text">
+						서울예술대학교 연극과 졸업.
+						주로 극작과 드라마투르기 활동 중.
+						무대와 일상을 잇는 언어에 대해 고민합니다.
+					</p>
+					<p class="card-text">
+						<small class="text-muted">Last updated 1 days ago</small>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<div class="accordion" id="accordionExample">
 		<div class="card">
 			<div class="card-header" id="headingOne">
@@ -63,7 +86,8 @@
 								<p class="card-text">
 									여행자극장 <br> 2020.11.13. ~ 11.22.<br> 대본
 								</p>
-								<a href="#" class="btn btn-primary">공연예정입니다.</a>
+								<a href="#" class="btn btn-primary">공연정보</a> <a href="#"
+									class="btn btn-primary">예매하기</a>
 							</div>
 						</div>
 						<div class="card"
