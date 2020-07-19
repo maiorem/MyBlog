@@ -43,18 +43,19 @@
 	<div class="card mb-3" style="max-width: 540px;">
 		<div class="row no-gutters">
 			<div class="col-md-4">
-				<img src="../images/jingrim.jpg" class="card-img" alt="..." style="height:236px;">
+				<img src="../images/jingrim.jpg" class="card-img" alt="..."
+					style="height: 236px;">
 			</div>
 			<div class="col-md-8">
 				<div class="card-body">
 					<h5 class="card-title">극작가 홍세영</h5>
 					<p class="card-text">
-						서울예술대학교 연극과 졸업. <br>
-						주로 극작과 드라마투르기 활동 중. <br>
-						무대와 일상을 잇는 언어에 대해 고민합니다. 
+						서울예술대학교 연극과 졸업. <br> 주로 극작과 드라마투르기 활동 중. <br> 무대와 일상을 잇는
+						언어에 대해 고민합니다.
 					</p>
 					<p class="card-text">
-						<small class="text-muted">저는 스스로를 고양이화 하고 있지 않습니다. 해당 그림은 지인이 그려준 진이입니다. 고양이는 배신하지 않습니다. 저를 믿지 마시고 고양이를 믿으세요. 냥멘.</small>
+						<small class="text-muted">저는 스스로를 고양이화 하고 있지 않습니다. 해당 그림은
+							지인이 그려준 진이입니다. 고양이는 배신하지 않습니다. 저를 믿지 마시고 고양이를 믿으세요. 냥멘.</small>
 					</p>
 				</div>
 			</div>
@@ -77,8 +78,8 @@
 					<div class="cards" style="overflow: hidden;">
 						<div class="card"
 							style="width: 18rem; float: left; margin-right: 100px; margin-bottom: 100px;">
-							<img src="../images/noimage.png" class="card-img-top" alt="포스터 미정"
-								style="width: 288px; height: 300px;">
+							<img src="../images/noimage.png" class="card-img-top"
+								alt="포스터 미정" style="width: 288px; height: 300px;">
 							<div class="card-body">
 								<h5 class="card-title">
 									연극 <br> [챠큭, 챠큭 챠큭 두번째 이야기 <br> ~ 버려진 것들에 대하여]
@@ -391,16 +392,17 @@
 			</div>
 		</div>
 		<%@ include file="/include/footer.jsp"%>
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+			crossorigin="anonymous"></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+			integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+			crossorigin="anonymous"></script>
 </body>
+
 </html>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-	integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-	crossorigin="anonymous"></script>
-<script
-	src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-	integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-	crossorigin="anonymous"></script>
-<script
-	src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-	integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-	crossorigin="anonymous"></script>
