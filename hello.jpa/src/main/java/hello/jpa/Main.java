@@ -6,6 +6,7 @@ import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 
 import hello.jpa.entity.Member;
+import hello.jpa.entity.MemberType;
 
 public class Main {
 	
@@ -17,8 +18,8 @@ public class Main {
 		tx.begin();
 		
 		Member member=new Member();
-		member.setId(100L);
-		member.setName("안녕하세요");
+		member.setName("홍세영");
+		member.setMemberType(MemberType.USER);
 		
 		em.persist(member);
 		
