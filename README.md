@@ -1,5 +1,6 @@
 # MyBlog
-Spring Boot, JPA 활용한 개인 사이트 만들기
+Spring Boot, JPA 활용한 개인 사이트 만들기     
+JPA와 Vue.js는 독학 중.... 
 
 <hr />
 
