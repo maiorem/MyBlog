@@ -5,7 +5,7 @@ JPA와 Vue.js는 독학 중....
 <hr />
 
 ## 사용 기술
-* VIEW : Thymeleaf, Vue.js 맛보기 시도 중        
+* VIEW : Thymeleaf, Vue.js        
 * SERVER : JAVA8    
 * DATABASE : MySQL, JPA    
 * WAS : Tomcat8    
