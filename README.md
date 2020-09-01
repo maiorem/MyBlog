@@ -12,6 +12,6 @@ JPA와 Vue.js는 독학 중....
 * 배포 : AWS    
 * Framework : Spring Boot, Hibernate, Vue.js    
 * Lib : Maven     
-* API : Rest, 카카오 로그인, 구글 클라우드 플랫폼-FIREBASE, Summernote 이후 추가
+* API : Rest, 카카오 로그인, FIREBASE, Summernote 이후 추가
 
 <hr />
