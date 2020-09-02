@@ -11,7 +11,7 @@ JPA와 Vue.js는 독학 중....
 * WAS : Tomcat8    
 * 배포 : AWS    
 * Framework : Spring Boot, Hibernate, Vue.js    
-* Lib : Maven     
+* Build : Maven     
 * API : Rest, 카카오 로그인, FIREBASE, Summernote 이후 추가
 
 <hr />
