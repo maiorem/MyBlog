@@ -22,7 +22,7 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 @Table(name="play")
-public class PlayWright {
+public class PlayWrightEntity {
 	
 	@Id @GeneratedValue(strategy = GenerationType.AUTO)
 	private int playId;
