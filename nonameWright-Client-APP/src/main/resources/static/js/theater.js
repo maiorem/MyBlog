@@ -14,6 +14,7 @@ function theaterOpen(id) {
 }
 
 
+
 //리스트
 function playList(){
 
@@ -31,10 +32,10 @@ function playList(){
 			
 			for(var i=0; i<data.length; i++) {
 				if(data[i].year==2020) {
-					card2020+='<button type="button" class="menu_card w3-hover-shadow" style="width: 250px; height: 400px; background-color:white; border-radius:10%; margin:10px;" onclick="viewPlay('+data[i].playId+')">';
+					card2020+='<button type="button" class="menu_card w3-hover-shadow" style="width: 300px; height: 500px; background-color:white; border-radius:10%; margin:10px;" onclick="viewPlay('+data[i].playId+')">';
 					card2020+='<span>'+data[i].sort+'</span> <span> 「'+data[i].title+'」</span>';
 					card2020+='<p>극장 : '+data[i].theater+'</p>';
-					card2020+='<img src="/image/poster/'+data[i].posterImg+'" style="width: 100%; height:150px;"> ';
+					card2020+='<img src="/image/poster/'+data[i].posterImg+'" style="width: 100%; height:250px;"> ';
 					card2020+='<p>공연기간 : '+data[i].startDate+' ~ '+data[i].endDate+'</p>'
 					card2020+='<p>'+data[i].role+'</p>';
 					
@@ -147,6 +148,15 @@ function playList(){
 }
 
 
+function mycard(){
+	var me='';
+	me+='<div style="width: 500px; height: 300px; background-color:white; border-radius:10%; margin:30px;">';
+	me+='</div>';
+	$('#cardSection').html(me);
+
+}
+
+
 
 
 
@@ -154,4 +164,5 @@ function playList(){
 
 $(document).ready(function(){
 	playList();
+	mycard();
 });
