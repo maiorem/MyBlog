@@ -29,4 +29,82 @@ public class StudyEntity {
 	@OneToMany(mappedBy = "study")
 	List<StudyComment> comment;
 
+	
+	
+	
+	public StudyEntity() {
+		
+	}
+	
+	
+
+	public StudyEntity(Long studyId, String title, String content, Timestamp regdate, Timestamp currEditDate,
+			List<StudyComment> comment) {
+		this.studyId = studyId;
+		this.title = title;
+		this.content = content;
+		this.regdate = regdate;
+		this.currEditDate = currEditDate;
+		this.comment = comment;
+	}
+
+
+
+	public Long getStudyId() {
+		return studyId;
+	}
+
+	public void setStudyId(Long studyId) {
+		this.studyId = studyId;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public String getContent() {
+		return content;
+	}
+
+	public void setContent(String content) {
+		this.content = content;
+	}
+
+	public Timestamp getRegdate() {
+		return regdate;
+	}
+
+	public void setRegdate(Timestamp regdate) {
+		this.regdate = regdate;
+	}
+
+	public Timestamp getCurrEditDate() {
+		return currEditDate;
+	}
+
+	public void setCurrEditDate(Timestamp currEditDate) {
+		this.currEditDate = currEditDate;
+	}
+
+	public List<StudyComment> getComment() {
+		return comment;
+	}
+
+	public void setComment(List<StudyComment> comment) {
+		this.comment = comment;
+	}
+
+	@Override
+	public String toString() {
+		return "StudyEntity [studyId=" + studyId + ", title=" + title + ", content=" + content + ", regdate=" + regdate
+				+ ", currEditDate=" + currEditDate + ", comment=" + comment + "]";
+	}
+	
+	
+	
+
 }
