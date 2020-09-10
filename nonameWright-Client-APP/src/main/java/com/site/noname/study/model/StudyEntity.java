@@ -19,6 +19,7 @@ public class StudyEntity {
 	
 	@Id @GeneratedValue(strategy = GenerationType.AUTO)
 	private Long studyId;
+	private String category;
 	private String title;
 	private String content;
 	@JsonFormat(pattern = "yyyy.MM.dd HH:mm", timezone = "Asia/Seoul")
@@ -28,27 +29,22 @@ public class StudyEntity {
 	
 	@OneToMany(mappedBy = "study")
 	List<StudyComment> comment;
-
-	
-	
 	
 	public StudyEntity() {
 		
 	}
-	
-	
 
-	public StudyEntity(Long studyId, String title, String content, Timestamp regdate, Timestamp currEditDate,
-			List<StudyComment> comment) {
+	public StudyEntity(Long studyId, String category, String title, String content, Timestamp regdate,
+			Timestamp currEditDate, List<StudyComment> comment) {
+
 		this.studyId = studyId;
+		this.category = category;
 		this.title = title;
 		this.content = content;
 		this.regdate = regdate;
 		this.currEditDate = currEditDate;
 		this.comment = comment;
 	}
-
-
 
 	public Long getStudyId() {
 		return studyId;
@@ -57,6 +53,18 @@ public class StudyEntity {
 	public void setStudyId(Long studyId) {
 		this.studyId = studyId;
 	}
+
+	
+	
+	public String getCategory() {
+		return category;
+	}
+
+	public void setCategory(String category) {
+		this.category = category;
+	}
+
+
 
 	public String getTitle() {
 		return title;
@@ -100,9 +108,10 @@ public class StudyEntity {
 
 	@Override
 	public String toString() {
-		return "StudyEntity [studyId=" + studyId + ", title=" + title + ", content=" + content + ", regdate=" + regdate
-				+ ", currEditDate=" + currEditDate + ", comment=" + comment + "]";
+		return "StudyEntity [studyId=" + studyId + ", category=" + category + ", title=" + title + ", content="
+				+ content + ", regdate=" + regdate + ", currEditDate=" + currEditDate + ", comment=" + comment + "]";
 	}
+
 	
 	
 	
