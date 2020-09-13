@@ -19,6 +19,7 @@ public class BoardEntity {
 
 	@Id @GeneratedValue(strategy = GenerationType.AUTO)
 	private Long boardId;
+	private String writer;
 	private String title;
 	private String content;
 	private String image;
@@ -36,12 +37,12 @@ public class BoardEntity {
 		
 	}
 
-	
-	
-	public BoardEntity(Long boardId, String title, String content, String image, String file, Timestamp regdate,
-			Timestamp currEditDate, int readCount, List<BoardComment> comment) {
+
+	public BoardEntity(Long boardId, String writer, String title, String content, String image, String file,
+			Timestamp regdate, Timestamp currEditDate, int readCount, List<BoardComment> comment) {
 
 		this.boardId = boardId;
+		this.writer = writer;
 		this.title = title;
 		this.content = content;
 		this.image = image;
@@ -54,6 +55,10 @@ public class BoardEntity {
 
 
 
+
+
+
+
 	public Long getBoardId() {
 		return boardId;
 	}
@@ -61,6 +66,19 @@ public class BoardEntity {
 	public void setBoardId(Long boardId) {
 		this.boardId = boardId;
 	}
+
+	
+	
+	
+	public String getWriter() {
+		return writer;
+	}
+
+
+	public void setWriter(String writer) {
+		this.writer = writer;
+	}
+
 
 	public String getTitle() {
 		return title;
@@ -126,12 +144,15 @@ public class BoardEntity {
 		this.comment = comment;
 	}
 
+
 	@Override
 	public String toString() {
-		return "BoardEntity [boardId=" + boardId + ", title=" + title + ", content=" + content + ", image=" + image
-				+ ", file=" + file + ", regdate=" + regdate + ", currEditDate=" + currEditDate + ", readCount="
-				+ readCount + ", comment=" + comment + "]";
+		return "BoardEntity [boardId=" + boardId + ", writer=" + writer + ", title=" + title + ", content=" + content
+				+ ", image=" + image + ", file=" + file + ", regdate=" + regdate + ", currEditDate=" + currEditDate
+				+ ", readCount=" + readCount + ", comment=" + comment + "]";
 	}
+
+	
 	
 	
 	
