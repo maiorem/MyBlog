@@ -19,7 +19,6 @@ public class PlayListService {
 	@Transactional
 	public List<PlayEntity> getList() {
 		List<PlayEntity> list=playRepository.findAll();
-		System.out.println(list);
 		return list;
 	}
 
