@@ -1,5 +1,46 @@
 <th:block th:include="include/header" />
+<style>
+.buttonSection {
+	text-align: center;
+}
 
-	<h1>메인</h1>
+.playPerson {
+	width: 300px;
+	height: 200px;
+	border: 3px solid #8585ad;
+	border-radius: 10%;
+	color: #8585ad;
 
+}
+
+.playPerson:hover {
+       background: url("image/index/sellect/playwright.jpg") no-repeat;	
+       color: white;
+}
+
+.devPerson {
+	width: 300px;
+	height: 200px;
+	border: 3px solid #cc6699;
+	border-radius: 10%;
+	color: #cc6699;
+
+}
+
+.devPerson:hover {
+    background: url("image/index/sellect/playwright.jpg") no-repeat;	
+	color: white;
+}
+
+</style>
+<div class="w3-margin-left">
+<div class="buttonSection">
+	<button class="playPerson" onclick="location.href='/theater'">연극하는 사람</button>
+	<button class="devPerson" onclick="location.href='/develope'">개발하는 사람</button>
+</div>
+<br>
+<div class="textSection">
+
+</div>
+</div>
 <th:block th:include="include/footer" />
