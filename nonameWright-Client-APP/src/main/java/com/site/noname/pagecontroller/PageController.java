@@ -27,16 +27,6 @@ public class PageController {
 		return "thymeleaf/study/studyForm";
 	}
 	
-	@RequestMapping("/blar")
-	public String goBlar() {
-		return "thymeleaf/blar/blarList";
-	}
-	
-	@RequestMapping("/blarForm")
-	public String blarForm() {
-		return "thymeleaf/blar/blarForm";
-	}
-	
 	
 	@RequestMapping("/social")
 	public String goSocial() {
