@@ -5,87 +5,25 @@
 	<h2>기술 공부 자료실</h2>
 	<hr>
 	 
-	<!-- Top -->
-
-	  <div class="w3-bar w3-theme w3-large" style="z-index:4;">
-	    <a class="w3-bar-item w3-button w3-left w3-hide-large w3-hover-white w3-large w3-theme w3-padding-16" href="javascript:void(0)" onclick="w3_open()">☰</a>
-	    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-small w3-hover-white w3-padding-16" href="javascript:void(0)" onclick="w3_show_nav('menuTut')">알고리즘</a>
-	   <a class="w3-bar-item w3-button w3-hide-medium w3-hover-white w3-padding-16" href="javascript:void(0)" onclick="w3_show_nav('menuRef')">자료구조</a>
-	  </div>
+	<table>
+		<thead>
+			<tr>
+				<th>
+			
+			</tr>
+		
+		</thead>
+		<tbody>
+			<tr>
+			
+			
+			</tr>
+		
+		</tbody>
 	
-	
-	<!-- Sidebar -->
-	<div class="w3-sidebar w3-bar-block w3-collapse w3-animate-left" style="z-index:3;width:270px" id="mySidebar">
-	  <div class="w3-bar w3-hide-large w3-large">
-	    <a href="javascript:void(0)" onclick="w3_show_nav('menuTut')" class="w3-bar-item w3-button w3-theme w3-hover-white w3-padding-16" style="width:50%">알고리즘</a>
-	    <a href="javascript:void(0)" onclick="w3_show_nav('menuRef')" class="w3-bar-item w3-button w3-theme w3-hover-white w3-padding-16" style="width:50%">자료구조</a>
-	  </div>
-	    <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-right w3-xlarge w3-hide-large" title="Close Menu">×</a>
-	  <div id="menuTut" class="myMenu">
-	  <div class="w3-container">
-	    <h3>알고리즘</h3>
-	  </div>
-	  <a class="w3-bar-item w3-button" href="#">거품 정렬</a>
-	  <a class="w3-bar-item w3-button" href="#">선택 정렬</a>
-	  <a class="w3-bar-item w3-button" href="#">삽입 정렬</a>
-	  <a class="w3-bar-item w3-button" href="#">퀵 정렬</a>
-	  <a class="w3-bar-item w3-button" href="#">병합 정렬</a>
-	  <a class="w3-bar-item w3-button" href="#">힙 정렬</a>
-	  <a class="w3-bar-item w3-button" href="#">기수 정렬</a>
-	  <a class="w3-bar-item w3-button" href="#">계수 정렬</a>
-	  <a class="w3-bar-item w3-button" href="#">이분 탐색</a>
-	  <a class="w3-bar-item w3-button" href="#">해시 테이블</a>
-	  <a class="w3-bar-item w3-button" href="#">DFS</a>
-	  <a class="w3-bar-item w3-button" href="#">BFS</a>
-	  <a class="w3-bar-item w3-button" href="#">LIS</a>
-	  <a class="w3-bar-item w3-button" href="#">LCA</a>
-	  <a class="w3-bar-item w3-button" href="#">DP</a>
-	  <a class="w3-bar-item w3-button" href="#">BitMask</a>
-	  </div>
-	  <div id="menuRef" class="myMenu" style="display:none">
-	  <div class="w3-container">
-	    <h3>자료구조</h3>
-	  </div>
-	  <a class="w3-bar-item w3-button" href='#'>배열</a>
-	  <a class="w3-bar-item w3-button" href='#'>리스트</a>
-	  <a class="w3-bar-item w3-button" href='#'>스택 & 큐</a>
-	  <a class="w3-bar-item w3-button" href='#'>힙</a>
-	  <a class="w3-bar-item w3-button" href='#'>이진 탐색 트리</a>
-	  <a class="w3-bar-item w3-button" href='#'>해시</a>
-	  <a class="w3-bar-item w3-button" href='#'>트라이</a>
-	  <a class="w3-bar-item w3-button" href='#'>B Tree</a>
-	  </div>
-	</div>
-	
-	<!-- Overlay effect when opening sidebar on small screens -->
-	<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
-	
-	<!-- Main content: shift it to the right by 270 pixels when the sidebar is visible -->
-	<div class="w3-main w3-container" style="margin-left:270px;">
-	
-	<div class="w3-panel w3-padding-large w3-card-4 w3-light-grey">
-
-	</div>
+	</table>
 	
 </div>
-<script>
-// Script to open and close the sidebar
-function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
-  document.getElementById("myOverlay").style.display = "block";
-}
- 
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-  document.getElementById("myOverlay").style.display = "none";
-}
 
-function w3_show_nav(name) {
-  document.getElementById("menuTut").style.display = "none";
-  document.getElementById("menuRef").style.display = "none";
-  document.getElementById(name).style.display = "block";
-  w3-open();
-}
-</script>
 
 <th:block th:include="include/footer" />
