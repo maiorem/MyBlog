@@ -150,7 +150,13 @@ function playList(){
 
 function mycard(){
 	var me='';
-	me+='<div style="width: 500px; height: 300px; background-color:white; border-radius:10%; margin:30px;">';
+	me+='<div style="width: 600px; height: 300px; background-color:white; margin:30px;">';
+	me+='	<img src="/image/me/playme.jpg" style="width: 300px; float: left;">';
+	me+='	<div id="playMeText" style="float: left;">';
+	me+='		<h4>극작 홍세영</h4>';
+	me+='		<p>서울예술대학교 연극과 졸업</p>';
+	me+='		<p>무대 위와 아래, 그 통역법에 대한 고민들</p>';
+	me+='	</div>';
 	me+='</div>';
 	$('#cardSection').html(me);
 
