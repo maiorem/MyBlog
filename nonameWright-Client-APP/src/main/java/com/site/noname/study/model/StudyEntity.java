@@ -13,6 +13,8 @@ import javax.persistence.Table;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.site.noname.studycomments.model.StudyComment;
 
+import lombok.Builder;
+
 @Entity
 @Table(name = "study")
 public class StudyEntity {
@@ -34,6 +36,7 @@ public class StudyEntity {
 		
 	}
 
+	@Builder
 	public StudyEntity(Long studyId, String category, String title, String content, Timestamp regdate,
 			Timestamp currEditDate, List<StudyComment> comment) {
 
@@ -111,6 +114,8 @@ public class StudyEntity {
 		return "StudyEntity [studyId=" + studyId + ", category=" + category + ", title=" + title + ", content="
 				+ content + ", regdate=" + regdate + ", currEditDate=" + currEditDate + ", comment=" + comment + "]";
 	}
+
+	
 
 	
 	
