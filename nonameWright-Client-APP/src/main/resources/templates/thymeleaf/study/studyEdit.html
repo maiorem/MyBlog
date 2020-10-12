@@ -1,0 +1,22 @@
+<th:block th:include="include/header" />
+<script src="/js/studyedit.js"></script>
+
+<div class="w3-margin-left">
+	<div id="studyFormWrap" style="overflow: hidden;">
+		<div style="width: 60%; margin: auto;">
+			<form id="studyRegForm" onsubmit="return false">
+				<select name="category">
+					<option></option>
+				</select>
+				<input type="text" id="title" name="title" style="width: 40%;" placeholder="제목" required> 
+				<textarea id="summernote" name="content" required></textarea>
+				<input type="reset" style="float: right;"> 
+				<input type="submit" value="글 작성" style="float: right;" onclick="goStudyWrite()">
+			</form>
+			<br>
+			<br>
+		</div>
+	</div>
+</div>
+
+<th:block th:include="include/footer" />
