@@ -11,6 +11,8 @@ public class StudyWriteService {
 	@Autowired
 	private StudyRepository studyRepository;
 
-	
+	public int write() {
+		return 0;
+	}
 
 }

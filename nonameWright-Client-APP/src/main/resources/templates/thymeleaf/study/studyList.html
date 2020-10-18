@@ -1,18 +1,16 @@
 <th:block th:include="include/header" />
+<script src="/js/study.js"></script>
 
 <div class="w3-margin-left">
 
 	<h2>기술 공부 자료실</h2>
 	<hr>
-	<form class="w3-container w3-card-4" >
+	<form action="/blog" class="w3-container w3-card-4" >
 		<select class="w3-select" name="option">
 			<option value="" disabled selected>카테고리를 선택하세요</option>
-   			<option value="1">알고리즘</option>
-    		<option value="2">자료구조</option>
-    		<option value="3">데이터베이스</option>
-    		<option value="4">운영체제</option>
-    		<option value="5">프로그래밍 언어</option>
-    		<option value="6">웹</option>
+   			<option value="Algorithm">Algorithm</option>
+    		<option value="ComputerScience">CS</option>
+    		<option value="Project">프로젝트 코드</option>
 		</select>
 	</form>
 	 
@@ -20,6 +18,7 @@
 		<table class="w3-table-all w3-hoverable">
 	
 		</table>
+		<div id="pageSection"></div>
 	</div>
 	
 </div>
