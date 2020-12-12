@@ -15,5 +15,3 @@ Spring Boot, JPA 활용한 개인 사이트 만들기
 
 <hr />
 
-## 배포 주소
-[http://nonamewright.me](http://nonamewright.me)
